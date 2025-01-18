@@ -1,0 +1,61 @@
+/* CSS-змінні */
+:root {
+  --main-bg-color: #ffffff; /* Основний колір фону */
+  --main-text-color: #333333; /* Основний текстовий колір */
+  --accent-color: #ff6b08; /* Акцентний колір */
+  --secondary-bg-color: #f7f7f7; /* Фон для секцій */
+  --secondary-text-color: #888888; /* Текстовий колір для секцій */
+}
+
+/* Основні стилі */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.header {
+  background-color: var(--accent-color);
+  color: var(--main-bg-color);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list,
+.contact-list {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-list a,
+.contact-list a {
+  text-decoration: none;
+  color: var(--main-bg-color);
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background-color: var(--secondary-bg-color);
+}
+
+.features-list,
+.work-list,
+.team-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.footer {
+  background-color: var(--main-text-color);
+  color: var(--main-bg-color);
+  text-align: center;
+  padding: 10px;
+}
