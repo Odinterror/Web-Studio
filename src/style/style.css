@@ -1,0 +1,144 @@
+.header {
+  width: 1600px;
+  height: 600px;
+  background: #2f303a;
+}
+.container1 {
+  height: 100px;
+  width: 1600px;
+}
+.container {
+  height: 100px;
+  width: 1600px;
+  margin-top: 400px;
+}
+.flex {
+  display: flex;
+}
+.work {
+  height: 368px;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+.our-team {
+  /* width: 1170px; */
+  height: 368px;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+img {
+  width: 270px;
+  height: 260px;
+  border: 2px solid black;
+}
+h1 {
+  text-align: center;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+  margin: auto;
+}
+h2 {
+  text-align: center;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+  margin: auto;
+}
+body {
+  background-color: rgb(209, 207, 207);
+}
+figure {
+  height: 368px;
+  background-color: darkgray;
+  text-align: center;
+}
+.name {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+.text1 {
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  width: 696px;
+  height: 120px;
+  margin: auto;
+}
+.button {
+  border-radius: 4px;
+  width: 216px;
+  height: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #2196f3;
+  margin-left: 700px;
+  margin-top: 100px;
+  box-shadow: 0 5px 15px 0 rgba(11, 99, 246, 1);
+  transition: 0.5s;
+}
+.button-text {
+  font-family: var(--font-family);
+  font-weight: 700;
+  line-height: 187%;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+.menu {
+  width: 1600px;
+  height: 80px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.s1 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.07em;
+  color: #2196f3;
+  gap: 100px;
+  padding: 0 15px;
+}
+.s2 {
+  width: 281px;
+  height: 16px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.07em;
+  color: #2196f3;
+  gap: 100px;
+
+  padding: 0 15px;
+}
+.s3 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.07em;
+  color: #212121;
+  gap: 100px;
+  padding: 0 15px;
+}
+.s4 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.07em;
+  color: #212121;
+  gap: 100px;
+  padding: 0 15px;
+}
